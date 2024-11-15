@@ -3,7 +3,7 @@ import React from "react";
 
 const HowItWorks = () => {
   return (
-    <div className="flex flex-column align-items-center mt-7 px-5">
+    <div className="flex flex-column align-items-center my-7 px-8">
       <p className="text-7xl">How It Works</p>
       <p className="text-4xl mt-2 text-gray-900 font-light">
         3 Important Steps to Lose Healthy and Durable Your Weight

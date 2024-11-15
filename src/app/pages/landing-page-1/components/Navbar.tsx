@@ -7,7 +7,7 @@ const navbar = () => {
   return (
     <div>
       <div
-        className="flex align-items-center justify-content-between px-5 py-3"
+        className="flex align-items-center justify-content-between px-8 py-3"
         style={{ background: "#F4F6F7" }}
       >
         <div className="flex gap-4">

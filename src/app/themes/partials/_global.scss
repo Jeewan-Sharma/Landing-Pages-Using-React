@@ -151,6 +151,11 @@ p {
 .custom-primary-color {
   color: var(--custom-primary-color);
 }
+
+.border-custom-primary-color {
+  border-color: var(--custom-primary-color);
+}
+
 .hover-custom-primary-color:hover {
   color: var(--custom-primary-color) !important;
   transition: all 0.2s ease-in;

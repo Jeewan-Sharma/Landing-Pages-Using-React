@@ -1,0 +1,13 @@
+.background {
+  background-image: url("../../../../../public/images/recipes_background.jpg");
+}
+
+.border-bottom {
+  border-bottom: solid 5px var(--custom-primary-color);
+}
+
+.p-rating-item {
+  svg {
+    color: #f5a623;
+  }
+}

@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <div>
       {showBar && (
-        <div className="bg-gray-900 px-5 py-2">
+        <div className="bg-gray-900 px-8 py-2">
           <div className="flex justify-content-between align-items-center">
             <div className="flex gap-3 align-items-center">
               <img

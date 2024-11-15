@@ -3,7 +3,7 @@ import React from "react";
 
 const home = () => {
   return (
-    <div className="px-5" style={{ background: "#EDEEF2" }}>
+    <div className="px-8" style={{ background: "#EDEEF2" }}>
       <div className="flex align-items-center">
         <div className="w-8 flex flex-column align-items-center">
           <p className="text-7xl">Get In Shape Faster</p>

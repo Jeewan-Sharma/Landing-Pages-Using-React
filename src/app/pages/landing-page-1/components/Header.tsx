@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex align-items-center justify-content-between px-5 py-1">
+    <div className="flex align-items-center justify-content-between px-8 py-1">
       <div className="flex align-items-center gap-1">
         <img src="images/Logo.png" alt="Logo" className="w-8rem" />
         <div className="text-center">
