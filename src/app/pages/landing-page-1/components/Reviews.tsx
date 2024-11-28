@@ -66,16 +66,16 @@ const reviewData: ReviewData[] = [
 
 const reviews = () => {
   return (
-    <div className="py-7 px-8">
-      <div className="flex pb-4 border-bottom-1 border-custom-primary-color">
-        <div className="w-7">
-          <p className="font-semibold text-4xl mt-4 custom-primary-color">
+    <div className="py-7 px-3 md:px-5 lg:px-8">
+      <div className="flex flex-wrap gap-4 lg:gap-0 pb-4 border-bottom-1 border-custom-primary-color">
+        <div className="w-full lg:w-7">
+          <p className="font-semibold text-3xl md:text-4xl mt-4 custom-primary-color">
             Weight Loss Success Stories
           </p>
-          <p className="text-gray-900 text-2xl mt-2">
+          <p className="text-gray-900 text-xl md:text-2xl mt-2">
             Get inspired by Julie B. and her amazing, real-life success story
           </p>
-          <p className="mt-4 text-xl">
+          <p className="mt-4 text-lg md:text-xl">
             Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
             molestie consequat, vel illum dolore eu feugiat nulla facilisis at
             vero eros et accumsan et iusto odio dignissim qui blandit praesent
@@ -84,7 +84,7 @@ const reviews = () => {
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
             volutpat.
           </p>
-          <p className="mt-4 text-xl">
+          <p className="mt-4 text-lg md:text-xl">
             Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
             suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis
             autem vel eum iriure dolor in hendrerit in vulputate velit esse
@@ -93,14 +93,14 @@ const reviews = () => {
             luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
           </p>
         </div>
-        <div className="w-5">
+        <div className="w-full lg:w-5">
           <ImageSlider />
         </div>
       </div>
       <div className="flex py-7 flex-wrap">
         {reviewData.map((item) => {
           return (
-            <div className="flex w-4 gap-3 p-2">
+            <div key={item.id} className="flex w-full md:w-6 lg:w-4 gap-3 p-2">
               <div className="w-6rem h-6rem border-1 border-circle border-custom-primary-color flex justify-content-center align-items-center">
                 <img
                   src={item.imageUrl}

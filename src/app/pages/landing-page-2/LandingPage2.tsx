@@ -1,7 +1,8 @@
 import React from "react";
+import UnderConstruction from "../../components/UnderConstruction";
 
 const LandingPage2 = () => {
-  return <div>landingPage2</div>;
+  return <div></div>;
 };
 
 export default LandingPage2;

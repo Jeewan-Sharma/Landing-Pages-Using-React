@@ -5,7 +5,7 @@ import { Button } from "primereact/button";
 
 const navbar = () => {
   return (
-    <div>
+    <div className="hidden lg:block">
       <div
         className="flex align-items-center justify-content-between px-8 py-3"
         style={{ background: "#F4F6F7" }}
