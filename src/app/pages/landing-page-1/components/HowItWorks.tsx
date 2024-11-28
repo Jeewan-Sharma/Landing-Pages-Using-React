@@ -3,17 +3,19 @@ import React from "react";
 
 const HowItWorks = () => {
   return (
-    <div className="flex flex-column align-items-center mt-7 px-5">
-      <p className="text-7xl">How It Works</p>
-      <p className="text-4xl mt-2 text-gray-900 font-light">
+    <div className="flex flex-column align-items-center my-7 px-3 md:px-5 lg:px-8">
+      <p className="text-5xl lg:text-7xl">How It Works</p>
+      <p className="text-2xl lg:text-4xl text-center mt-2 text-gray-900 font-light">
         3 Important Steps to Lose Healthy and Durable Your Weight
       </p>
-      <div className="flex mt-8">
-        <div className="w-4 flex gap-3">
-          <div>
-            <p className="custom-primary-color font-bold text-7xl">1.</p>
+      <div className="flex flex-wrap flex-row mt-8 gap-6 lg:gap-0">
+        <div className="w-full lg:w-4 flex gap-3">
+          <div className="w-1 lg:w-2">
+            <p className="custom-primary-color font-bold text-center text-5xl lg:text-7xl">
+              1.
+            </p>
           </div>
-          <div>
+          <div className="w-11">
             <p className="font-bold text-xl">Eliminate Sugars and Starches</p>
             <p className="text-gray-900 text-lg mt-2">
               One of the most important part.
@@ -24,11 +26,13 @@ const HowItWorks = () => {
             </p>
           </div>
         </div>
-        <div className="w-4 flex gap-3">
-          <div>
-            <p className="custom-primary-color font-bold text-7xl">2.</p>
+        <div className="w-full lg:w-4 flex gap-3">
+          <div className="w-1 lg:w-2">
+            <p className="custom-primary-color font-bold text-center text-5xl lg:text-7xl">
+              2.
+            </p>
           </div>
-          <div>
+          <div className="w-11">
             <p className="font-bold text-xl">Eat Protein, Fat and Vegetables</p>
             <p className="text-gray-900 text-lg mt-2">
               Meals should include a protein source.
@@ -39,11 +43,13 @@ const HowItWorks = () => {
             </p>
           </div>
         </div>
-        <div className="w-4 flex gap-3">
-          <div>
-            <p className="custom-primary-color font-bold text-7xl">3.</p>
+        <div className="w-full lg:w-4 flex gap-3">
+          <div className="w-1 lg:w-2">
+            <p className="custom-primary-color font-bold text-center text-5xl lg:text-7xl">
+              3.
+            </p>
           </div>
-          <div>
+          <div className="w-11">
             <p className="font-bold text-xl">Exercise 3-4 Times Per Week</p>
             <p className="text-gray-900 text-lg mt-2">
               It is important to exercise to lose weight.

@@ -1,0 +1,23 @@
+.background {
+  background-image: url("../../../../../public/images/recipes_background.jpg");
+}
+
+.border-bottom {
+  border-bottom: solid 5px var(--custom-primary-color);
+}
+
+.p-rating-item {
+  svg {
+    color: #f5a623;
+  }
+}
+
+.lg-opacity-100 {
+  opacity: 1 !important;
+}
+
+.text-shadow {
+  p {
+    text-shadow: 2px 2px 3px rgb(250, 250, 250);
+  }
+}
