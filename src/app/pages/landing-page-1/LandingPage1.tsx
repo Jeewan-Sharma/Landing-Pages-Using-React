@@ -7,6 +7,11 @@ import Recipes from "./components/Recipes";
 import Reviews from "./components/Reviews";
 import ProgramInclusion from "./components/ProgramInclusion";
 import Pricing from "./components/pricing";
+import FAQ from "./components/FAQ";
+import NewsLetter from "./components/NewsLetter";
+import Nutritionist from "./components/Nutritionist";
+import StartTodayBar from "./components/StartTodayBar";
+import Footer from "./components/Footer";
 
 const LandingPage1 = () => {
   return (
@@ -19,6 +24,11 @@ const LandingPage1 = () => {
       <Reviews />
       <ProgramInclusion />
       <Pricing />
+      <FAQ />
+      <NewsLetter />
+      <Nutritionist />
+      <StartTodayBar />
+      <Footer />
     </div>
   );
 };
