@@ -152,6 +152,10 @@ p {
   color: var(--custom-primary-color);
 }
 
+.background-custom-primary-color {
+  background-color: var(--custom-primary-color);
+}
+
 .border-custom-primary-color {
   border-color: var(--custom-primary-color);
 }
@@ -164,6 +168,7 @@ p {
 .custom-primary-button {
   background-color: var(--custom-primary-color) !important;
   border: 2px solid var(--custom-primary-color) !important;
+  color: white !important;
   &:hover {
     background-color: transparent !important;
     border: 2px solid var(--custom-primary-color) !important;
@@ -185,9 +190,9 @@ p {
 
 .custom-outlined-primary-to-secondary-button {
   color: var(--custom-primary-color) !important;
+  transition: all 0.2s ease-in;
   &:hover {
     color: var(--custom-secondary-color) !important;
-    transition: all 0.2s ease-in;
   }
 }
 
